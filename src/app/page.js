@@ -32,6 +32,7 @@ export default function Home() {
         <h2 onClick={GoForward}>Go to forward page</h2>
         <h2 onClick={GoBack}>Go to Back page (it will not work because i have used it on main page )</h2>
         <Link className=" bg-red-600 p-2 rounded-xl" href={'/server-data-fetch'}>Move to Server Data Fetch Section. It will request list of users from api and api will send the response</Link>
+        <Link href={'/client-data-fetch'}>Fetching data on client side</Link>
     </div>
   );
 }
